@@ -1,0 +1,99 @@
+h3{
+    font-family: Garamond, serif;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-top: 20px;
+    float: right;
+    
+}
+h2{
+    padding-left: 250px;
+    padding-top: 20px;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    float: left;
+}
+footer {
+  position:fixed;
+  height: 50px;
+  bottom: 0px;
+  width: 100%;
+  padding-left: 10px;
+  line-height: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:whitesmoke;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    background-color: #ff3333;
+  }
+img{
+    width: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 40;
+    margin-bottom: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+.container {
+  width: 70%;
+  display: flex;
+  padding-left: 70px;
+  
+}
+
+.slide {
+  
+  height: 45vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor:move;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+}
+
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active img {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+.card-group {
+  margin-bottom: 50px;
+}
+.card-body{
+  text-align: center;
+}
